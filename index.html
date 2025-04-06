@@ -6,39 +6,90 @@
   <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,700" rel="stylesheet">
   <style>
     body {
-      margin: 20px; /* Padding around edges */
-      background-color: #f5f5f5; /* Light gray background */
+      margin: 20px;
+      background-color: #f5f5f5;
+      font-family: 'Nunito Sans', sans-serif;
     }
-    
+
     h1 {
-      font-family: 'Nunito Sans', sans-serif;
-      font-weight: 700; /* Bold */
-      color: #111; /* Darker gray, almost black */
-      margin-bottom: 15px; /* Space below heading */
+      font-weight: 700;
+      color: #111;
+      margin-bottom: 15px;
+      text-align: center;
     }
-    
+
     p {
-      font-family: 'Nunito Sans', sans-serif;
-      font-weight: 400; /* Regular weight */
-      color: #222; /* Darker gray for text */
-      line-height: 1; /* Fixed as requested */
-      margin-bottom: 10px; /* Space between paragraphs */
+      font-weight: 400;
+      color: #222;
+      line-height: 1;
+      margin-bottom: 10px;
+      text-align: center;
     }
-    
+
     a {
-      color: #0056b3; /* Darker blue for link */
-      text-decoration: none; /* No underline */
+      color: #0056b3;
+      text-decoration: none;
     }
-    
+
     a:hover {
-      text-decoration: underline; /* Underline on hover */
+      text-decoration: underline;
+    }
+
+    .main-content {
+      max-width: 600px;
+      margin: 0 auto 30px auto;
+    }
+
+    .social-box {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+      border: 1px solid #ddd;
+      padding: 12px 20px;
+      text-align: center;
+      color: #222;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      border-radius: 8px;
+    }
+
+    .social-box h3 {
+      font-weight: 700;
+      color: #111;
+      margin: 0 0 10px 0;
+      font-size: 1.2em;
+      white-space: nowrap;
+    }
+
+    .social-box ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .social-box li {
+      margin: 0;
     }
   </style>
 </head>
 <body>
-    <h1>Hello, I'm Arjun Narayanasamy!</h1>
-    <p>I'm a Software Developer who loves to code with a cup of coffee :) </p>
+  <div class="main-content">
+    <h1>Arjun Narayanasamy's Blog!</h1>
+    <p>I’m a software developer with a passion for clean code and strong coffee :) </p>
     <p>I enjoy learning new things, building cool projects, and exploring technology.</p>
-    <p>If you'd like to connect, feel free to reach me at: <a href="mailto:arjunnarayanasamy@outlook.com">arjunnarayanasamy@outlook.com</a></p>
+    <p>If you'd like to connect, feel free to reach me at: 
+      <a href="mailto:arjunnarayanasamy@outlook.com">arjunnarayanasamy@outlook.com</a>
+    </p>
+  </div>
+
+  <div class="social-box">
+    <h3>Who is Arjun?</h3>
+    <ul>
+      <li><a href="https://www.linkedin.com/in/arjun-narayanasamy-aaa72976/" target="_blank">LinkedIn</a></li>
+      <li><a href="https://github.com/ArjunNarayanasamy" target="_blank">GitHub</a></li>
+    </ul>
+  </div>
 </body>
 </html>
